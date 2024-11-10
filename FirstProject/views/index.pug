@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+html
+head
+    meta(charset="UTF-8")
+    title=baslik
+body
+    h1=konu
+    p Merhaba benim adım #{adi} 
+    p Soyadım #[strong #{soyadi}]
+
+    ul 
+        -for (let sira=1; sira <=10; ++sira)
+            li #{sira} Merhaba
